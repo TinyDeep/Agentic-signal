@@ -94,9 +94,9 @@ export async function fetchGdriveFiles (args: CloudStorageFileSearchArgs): Promi
 
         const searchData: DriveApiResponse = await searchResponse.json();
 
-        if (!searchData.files || searchData.files.length === 0) {
-            return [];
-        }
+        // if (!searchData.files || searchData.files.length === 0) {
+        //     return [];
+        // }
 
         // Now fetch content for each file
         const filesWithContent = await Promise.all(
