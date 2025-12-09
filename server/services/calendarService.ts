@@ -20,15 +20,15 @@ type GoogleCalendarEvent = {
         date?: string;
         timeZone?: string;
     };
-    location?: string;
-    attendees?: Array<{
-        email: string;
-        displayName?: string;
-    }>;
-    creator?: {
-        email: string;
-        displayName?: string;
-    };
+    // location?: string;
+    // attendees?: Array<{
+    //     email: string;
+    //     displayName?: string;
+    // }>;
+    // creator?: {
+    //     email: string;
+    //     displayName?: string;
+    // };
     htmlLink?: string;
     status?: string;
 };
