@@ -19,8 +19,8 @@ const yoga = createYoga({
     cors: {
         origin: [
             'http://localhost:5173',
-            'http://127.0.0.1:5173',
-            'http://tauri.localhost',
+            // 'http://127.0.0.1:5173',
+            // 'http://tauri.localhost',
         ],
         credentials: true,
     },
