@@ -62,8 +62,8 @@ export async function fetchGmailEmails (args: EmailSearchArgs): Promise<EmailRes
             return {
                 id: message.id,
                 subject: getHeader('Subject'),
-                from: getHeader('From'),
-                date: getHeader('Date')
+                // from: getHeader('From'),
+                // date: getHeader('Date')
             };
         });
 
